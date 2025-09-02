@@ -22,7 +22,7 @@
             <!-- Navigation -->
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
                 <div class="container px-5">
-                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Marta de Castr</span></a>
+                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Marta de Castro</span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
                             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -47,15 +47,18 @@
                                 <div class="badge bg-gradient-primary-to-secondary text-white mb-4">
                                     <div class="text-uppercase" data-key="header_badge">Desarrollo &middot; Diseño &middot; Innovación</div>
                                 </div>
-                                <div class="fs-3 fw-light text-muted" data-key="header_intro">Hola, soy Marta de Castro Leira y soy</div>
+                                <div class="fs-3 fw-light text-muted" data-key="header_intro">
+                                    Ingeniera Informática con pasión por la creación de soluciones tecnológicas y experiencias digitales
+                                </div>
                                 <h1 class="display-3 fw-bolder mb-5">
-                                    <span class="text-gradient d-inline" data-key="header_main">Ingeniera Informática</span>
+                                    <span class="text-gradient d-inline" data-key="header_main">Marta de Castro Leira</span>
                                 </h1>
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                                     <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="resume.html" data-key="header_btn_resume">Mi CV</a>
                                     <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html" data-key="header_btn_projects">Proyectos</a>
                                 </div>
                             </div>
+
                         </div>
                         <div class="col-xxl-7">
                             <!-- Header profile picture-->
@@ -183,130 +186,123 @@
                 </div>
             </header>
             <!-- About Section -->
-<section class="bg-light py-5">
-    <div class="container px-5">
-        <div class="text-center mb-5">
-            <h2 class="display-5 fw-bolder text-gradient">Sobre Mí</h2>
-            <p class="lead fw-light">
-                Explora quién soy, mis habilidades y mis pasiones.
-            </p>
-        </div>
-
-        <!-- Carousel/Fichas Deslizables -->
-        <div id="aboutCarousel" class="carousel slide position-relative" data-bs-ride="carousel">
-            <div class="carousel-inner">
-
-                <!-- Ficha 1: Profesional -->
-                <div class="carousel-item active">
-                    <div class="card shadow-lg p-4 text-center border-0 rounded-4 hover-scale">
-                        <img src="assets/tech-icon.png" class="mx-auto d-block mb-3" alt="Tecnología" style="width: 80px;">
-                        <h5 class="card-title fw-bold">Apasionada por la Tecnología</h5>
-                        <p class="card-text">
-                            Me motiva innovar y aplicar inteligencia artificial para crear soluciones prácticas y efectivas.
+            <!-- <section class="bg-light py-5">
+                <div class="container px-5">
+                    <div class="text-center mb-5">
+                        <h2 class="display-5 fw-bolder text-gradient">Sobre Mí</h2>
+                        <p class="lead fw-light">
+                            Explora quién soy, mis habilidades y mis pasiones.
                         </p>
-                        <button type="button" class="btn btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#modalProf">
-                            Conocer más
+                    </div>
+
+                    <div id="aboutCarousel" class="carousel slide position-relative" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <div class="card shadow-lg p-4 text-center border-0 rounded-4 hover-scale">
+                                    <img src="assets/tech-icon.png" class="mx-auto d-block mb-3" alt="Tecnología" style="width: 80px;">
+                                    <h5 class="card-title fw-bold">Apasionada por la Tecnología</h5>
+                                    <p class="card-text">
+                                        Me motiva innovar y aplicar inteligencia artificial para crear soluciones prácticas y efectivas.
+                                    </p>
+                                    <button type="button" class="btn btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#modalProf">
+                                        Conocer más
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="card shadow-lg p-4 text-center border-0 rounded-4 hover-scale">
+                                    <img src="assets/team-icon.png" class="mx-auto d-block mb-3" alt="Trabajo en equipo" style="width: 80px;">
+                                    <h5 class="card-title fw-bold">Trabajo en Equipo & Creatividad</h5>
+                                    <p class="card-text">
+                                        Disfruto colaborando y aportando ideas originales para alcanzar objetivos comunes.
+                                    </p>
+                                    <button type="button" class="btn btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#modalSkills">
+                                        Conocer más
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="card shadow-lg p-4 text-center border-0 rounded-4 hover-scale">
+                                    <img src="assets/hobby-icon.png" class="mx-auto d-block mb-3" alt="Intereses" style="width: 80px;">
+                                    <h5 class="card-title fw-bold">Intereses Personales</h5>
+                                    <p class="card-text">
+                                        Me encanta viajar, descubrir nuevas culturas y disfrutar de la fotografía y el vídeo.
+                                    </p>
+                                    <button type="button" class="btn btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#modalHobbies">
+                                        Conocer más
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
                         </button>
                     </div>
+
+                    <div class="modal fade" id="modalProf" tabindex="-1" aria-labelledby="modalProfLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content p-4">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modalProfLabel">Apasionada por la Tecnología</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Me motiva asumir retos y explorar nuevas formas de crear soluciones digitales innovadoras.
+                                    Aplicando herramientas digitales y técnicas de IA, busco optimizar procesos y mejorar la experiencia del usuario.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="modalSkills" tabindex="-1" aria-labelledby="modalSkillsLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content p-4">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modalSkillsLabel">Trabajo en Equipo & Creatividad</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Colaboro eficientemente en equipo, aportando ideas creativas y aprendiendo constantemente.
+                                    Me considero curiosa, adaptable y proactiva ante cualquier desafío.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="modalHobbies" tabindex="-1" aria-labelledby="modalHobbiesLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content p-4">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modalHobbiesLabel">Intereses Personales</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Disfruto viajar, descubrir nuevas culturas y crear contenido audiovisual.
+                                    Me gusta compartir experiencias y momentos especiales con amigos y familia.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
-                <!-- Ficha 2: Habilidades -->
-                <div class="carousel-item">
-                    <div class="card shadow-lg p-4 text-center border-0 rounded-4 hover-scale">
-                        <img src="assets/team-icon.png" class="mx-auto d-block mb-3" alt="Trabajo en equipo" style="width: 80px;">
-                        <h5 class="card-title fw-bold">Trabajo en Equipo & Creatividad</h5>
-                        <p class="card-text">
-                            Disfruto colaborando y aportando ideas originales para alcanzar objetivos comunes.
-                        </p>
-                        <button type="button" class="btn btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#modalSkills">
-                            Conocer más
-                        </button>
+                    <div class="d-flex justify-content-center fs-2 gap-4 mt-5">
+                        <a class="text-gradient" href="https://twitter.com/tu_usuario" target="_blank"><i class="bi bi-twitter"></i></a>
+                        <a class="text-gradient" href="https://www.linkedin.com/in/marta-de-castro-leira-a47bb9379/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a class="text-gradient" href="https://github.com/cartademastro" target="_blank"><i class="bi bi-github"></i></a>
                     </div>
                 </div>
-
-                <!-- Ficha 3: Intereses Personales -->
-                <div class="carousel-item">
-                    <div class="card shadow-lg p-4 text-center border-0 rounded-4 hover-scale">
-                        <img src="assets/hobby-icon.png" class="mx-auto d-block mb-3" alt="Intereses" style="width: 80px;">
-                        <h5 class="card-title fw-bold">Intereses Personales</h5>
-                        <p class="card-text">
-                            Me encanta viajar, descubrir nuevas culturas y disfrutar de la fotografía y el vídeo.
-                        </p>
-                        <button type="button" class="btn btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#modalHobbies">
-                            Conocer más
-                        </button>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- Flechas de navegación grandes y visibles -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
-                <span class="visually-hidden">Siguiente</span>
-            </button>
-        </div>
-
-        <!-- Modales -->
-        <div class="modal fade" id="modalProf" tabindex="-1" aria-labelledby="modalProfLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg">
-                <div class="modal-content p-4">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="modalProfLabel">Apasionada por la Tecnología</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-                    </div>
-                    <div class="modal-body">
-                        Me motiva asumir retos y explorar nuevas formas de crear soluciones digitales innovadoras.
-                        Aplicando herramientas digitales y técnicas de IA, busco optimizar procesos y mejorar la experiencia del usuario.
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="modalSkills" tabindex="-1" aria-labelledby="modalSkillsLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg">
-                <div class="modal-content p-4">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="modalSkillsLabel">Trabajo en Equipo & Creatividad</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-                    </div>
-                    <div class="modal-body">
-                        Colaboro eficientemente en equipo, aportando ideas creativas y aprendiendo constantemente.
-                        Me considero curiosa, adaptable y proactiva ante cualquier desafío.
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="modalHobbies" tabindex="-1" aria-labelledby="modalHobbiesLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg">
-                <div class="modal-content p-4">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="modalHobbiesLabel">Intereses Personales</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-                    </div>
-                    <div class="modal-body">
-                        Disfruto viajar, descubrir nuevas culturas y crear contenido audiovisual.
-                        Me gusta compartir experiencias y momentos especiales con amigos y familia.
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-        <!-- Redes sociales -->
-        <div class="d-flex justify-content-center fs-2 gap-4 mt-5">
-            <a class="text-gradient" href="https://twitter.com/tu_usuario" target="_blank"><i class="bi bi-twitter"></i></a>
-            <a class="text-gradient" href="https://www.linkedin.com/in/marta-de-castro-leira-a47bb9379/" target="_blank"><i class="bi bi-linkedin"></i></a>
-            <a class="text-gradient" href="https://github.com/cartademastro" target="_blank"><i class="bi bi-github"></i></a>
-        </div>
-    </div>
-</section>
+            </section> -->
 
         </main>
         <!-- Footer-->
