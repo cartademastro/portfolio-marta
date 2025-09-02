@@ -8403,6 +8403,13 @@ textarea.form-control-lg {
   pointer-events: auto !important;
 }
 
+.project-detail.card {
+  width: 100%;        /* ocupar todo el ancho posible */
+  max-width: 1200px;  /* o el valor que quieras */
+  margin: 0 auto;     /* centrado */
+}
+
+
 .rounded {
   border-radius: var(--bs-border-radius) !important;
 }
